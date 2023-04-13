@@ -1,0 +1,12 @@
+fieldset{
+    width: 180px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enviar{
+    margin-top: 5px;
+}
+#areadetexto{
+    width: 100%;
+}
