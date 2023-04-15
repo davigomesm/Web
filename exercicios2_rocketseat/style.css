@@ -1,12 +1,24 @@
-fieldset{
-    width: 180px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+fieldset {
+  width: 180px;
 }
-.enviar{
-    margin-top: 5px;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-#areadetexto{
-    width: 100%;
+
+.enviar {
+  margin-top: 5px;
 }
+
+#areadetexto {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
