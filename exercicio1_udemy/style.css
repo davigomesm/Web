@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input{
+  margin: 10px;
+}
+
+p{
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+}
+
+label span{
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  background-color: rgb(217, 224, 224);
+  border-radius: 12px; 
+}
+
+label span:before{
+  content: "";
+  display: block;
+  background-color: rgb(255, 255, 255);
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+label input:checked + span:before{
+  transform: translateX(25px);
+  background-color: chartreuse;
+}
+
+label input:focus + span{
+  box-shadow: 0 0 0 1px rgb(62, 133, 138);
+}
+
+input{
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
