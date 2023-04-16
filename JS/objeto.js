@@ -1,7 +1,6 @@
-console.log({
-    nome: Davi
-    idade: 22
-    andar: function(){
-        console.log('andando')
-    }
-})
+const pessoa = {
+    nome: Davi,
+    idade: 22,
+}
+console.log(pessoa.nome)
+//vai mostrar o nome da pessoa
