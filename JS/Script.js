@@ -1,5 +1,11 @@
-let idade = 22
-let nome = "Davi"
-console.log("O " + nome + " tem " + idade + " anos")
-// ou com crase
-console.log(`O ${nome} tem ${idade} anos`)
+const animais = [
+    "gato",
+    {
+        animal: "cachorro",
+        nome: "Mel",
+        idade: 4,
+    },
+    "tartaruga"
+]
+console.log(animais[1])
+console.log(animais[1].idade)
