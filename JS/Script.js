@@ -8,4 +8,4 @@ const animais = [
     "tartaruga"
 ]
 console.log(animais[1])
-console.log(animais[1].idade)
+console.log(animais[1].idade) 
