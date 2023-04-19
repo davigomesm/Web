@@ -1,5 +1,5 @@
 var soma = function(num1, num2){
-    resultado = num1 + num2
+    let resultado = num1 + num2
     return resultado
 }
 var num1 = 1
