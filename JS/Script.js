@@ -1,0 +1,5 @@
+var n1 = prompt("digite um numero: ")
+n1 = parseInt(n1)
+var n2 = prompt("digite outro numero: ")
+n2 = parseInt(n2)
+alert("a subtração dos numeros é: " + (n1 - n2))
